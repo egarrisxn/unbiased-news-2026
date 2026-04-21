@@ -1,7 +1,18 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  reactCompiler: true,
+  // cacheComponents: true,
+  // images: {
+  //   remotePatterns: [
+  //     {
+  //       protocol: "https",
+  //       hostname: "amrpohtzblsozsnuouew.supabase.co",
+  //       port: "",
+  //       pathname: "/**",
+  //     },
+  //   ],
+  // },
 };
 
 export default nextConfig;
