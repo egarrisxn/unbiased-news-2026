@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
-    "target": "ES2017",
+
+    "target": "ES2025",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
@@ -13,6 +14,8 @@
     "isolatedModules": true,
     "jsx": "react-jsx",
     "incremental": true,
+    "types": ["node"], 
+    "rootDir": ".",
     "plugins": [
       {
         "name": "next"
@@ -23,6 +26,7 @@
     }
   },
   "include": [
+    ".",
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
